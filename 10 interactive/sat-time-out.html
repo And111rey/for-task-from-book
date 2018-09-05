@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset = "UTF-8"/>
+<title>SET-TIME-OUT</title>
+</head>
+
+<body>
+
+<script>
+/* таймер на виполнениэ функции
+var timeUp = function () {
+alert("Время вышло!");
+};
+setTimeout(timeUp, 3000);
+*/
+
+/*// пример оставки таймера
+	var doHomeworkAlarm = function () {
+		alert("время делать уроки");
+	}
+	var timeOutId = setTimeout(doHomeworkAlarm, 6000);
+	
+	//clearTimeout(timeOutId);
+    */
+	var counter = 1;
+	
+	var ptintMassage = function () {
+		document.write( "Ты смотришь в консоль уже " +counter + "  секунд" + "<hr/>");
+		counter++; 
+	}
+	
+	var intervaiId = setInterval(ptintMassage, 1000) ;
+	clearInterval(intervaiId);
+    
+
+    
+</script>
+</body>
+</html>

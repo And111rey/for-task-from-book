@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset = "UTF-8"/>
+<title>function- task2</title>
+</head>
+
+<body>
+
+<script>
+
+ //решение с через "&&" и "if" 
+ var ar1, ar2, ar3, ar4;
+	ar1 = ["1", "2", "3"];
+	ar2 = ["1", "2", "3"];
+	ar3 = ["1", "1", "1"];
+	ar4 = ["1", "2", "3", "4"];
+
+
+
+	var areArraySome = function (a, b) {
+	if((a.join() == b.join()) && (a.length == b.length)) {
+		alert(true);
+		} else {
+		alert(false);
+		}		
+	}
+	
+			areArraySome(ar1, ar2);
+	
+		
+	
+   
+   
+</script>
+</body>
+</html>
